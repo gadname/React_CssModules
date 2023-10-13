@@ -1,14 +1,14 @@
 import styled from "styled-components";
 export const StyledComponents = () => {
   return (
-    <Container>
-      <p>Styled Components</p>
+    <SContainer>
+      <STitle>Styled Components</STitle>
       <button>FIGHT!</button>
-    </Container>
+    </SContainer>
   );
 };
 
-const Container = styled.div`
+const SContainer = styled.div`
   border: solid 2px #392eff;
   border-radius: 20px;
   padding: 8px;
@@ -16,4 +16,8 @@ const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+`;
+const STitle = styled.p`
+  margin: 0;
+  color: #3d84a8;
 `;
