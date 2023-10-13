@@ -3268,6 +3268,11 @@
   "resolved" "https://registry.npmjs.org/clean-stack/-/clean-stack-2.2.0.tgz"
   "version" "2.2.0"
 
+"client-only@0.0.1":
+  "integrity" "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="
+  "resolved" "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz"
+  "version" "0.0.1"
+
 "cliui@^7.0.2":
   "integrity" "sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ=="
   "resolved" "https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz"
@@ -8315,7 +8320,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^18.2.0", "react@>= 16", "react@18.2.0":
+"react@^18.2.0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -9296,6 +9301,13 @@
   "integrity" "sha512-53BiGLXAcll9maCYtZi2RCQZKa8NQQai5C4horqKyRmHj9H7QmcUyucrH+4KW/gBQbXM2AsB0axoEcFZPlfPcw=="
   "resolved" "https://registry.npmjs.org/style-loader/-/style-loader-3.3.3.tgz"
   "version" "3.3.3"
+
+"styled-jsx@^5.1.2":
+  "integrity" "sha512-FI5r0a5ED2/+DSdG2ZRz3a4FtNQnKPLadauU5v76a9QsscwZrWggQKOmyxGGP5EWKbyY3bsuWAJYzyKaDAVAcw=="
+  "resolved" "https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.2.tgz"
+  "version" "5.1.2"
+  dependencies:
+    "client-only" "0.0.1"
 
 "stylehacks@^5.1.1":
   "integrity" "sha512-sBpcd5Hx7G6seo7b1LkpttvTz7ikD0LlH5RmdcBNb6fFR0Fl7LQwHDFr300q4cwUqi+IYrFGmsIHieMBfnN/Bw=="
